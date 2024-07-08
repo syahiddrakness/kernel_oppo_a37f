@@ -33,6 +33,10 @@ CONFIG_DEFCONFIG_LIST="/lib/modules/$UNAME_RELEASE/.config"
 CONFIG_IRQ_WORK=y
 CONFIG_BUILDTIME_EXTABLE_SORT=y
 
+# KernelSU
+CONFIG_KSU=y
+# CONFIG_KSU_DEBUG is not set
+
 #
 # General setup
 #
